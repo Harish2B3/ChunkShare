@@ -63,7 +63,7 @@ ChunkShare is a modern, secure file-sharing platform that leverages WebRTC techn
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Harish2B3/chunkshare.git
+   git clone https://github.com/Harish2B3/ChunkShare.git
    cd chunkshare
    ```
 

@@ -1,0 +1,22 @@
+{
+  "name": "filesharing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Secure file sharing with WebRTC and file chunking",
+  "scripts": {
+    "dev:client": "vite",
+    "dev:server": "node server/server.js",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "vite": "^6.3.1"
+  }
+}

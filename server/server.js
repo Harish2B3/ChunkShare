@@ -55,7 +55,7 @@ setInterval(() => {
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  console.log(`WebSocket server available at ws://localhost:${PORT}`);
+  console.log(`WebSocket server available at ws://chunkshare.netlify.app:${PORT}`);
 });
 
 // Handle graceful shutdown
